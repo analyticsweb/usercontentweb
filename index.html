@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Unlocking the Potential of Technology: Innovate, Create, Transform">
+    <meta name="keywords" content="technology, innovation, creativity, transformation, digital">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlocking the Potential of Technology</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .source {
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+  <script>
+	
+	
+   function obterValorParametroUrl(parametro) {
+            const urlSearchParams = new URLSearchParams(window.location.search);
+            return urlSearchParams.get(parametro);
+        }
+
+             
+		 const siteURL = obterValorParametroUrl('siteurl');
+		 const cat = obterValorParametroUrl('cat');
+		 const idsite = obterValorParametroUrl('idsite');
+		 const idzone = obterValorParametroUrl('idzone');
+		 const type = obterValorParametroUrl('type');
+
+
+
+		     
+  if (siteURL !== null && cat !== null && idsite !== null && idzone !== null && type !== null ) {
+      
+		
+     
+x=window.innerWidth||0;
+y=window.innerHeight||0;
+if (typeof document.documentElement != 'undefined') {
+	x=document.documentElement.clientWidth;
+	y=document.documentElement.clientHeight;
+}
+
+if ((x <= 3840) && (y <= 2160)) {
+	
+	
+	
+  top.location.href=siteURL+"?cat="+cat+"&idsite="+idsite+"&idzone="+idzone+"&type="+type;
+    
+
+    
+} 
+   
+	
+    
+}
+
+	
+
+</script>
+</head>
+<body>
+    <div class="container">
+        <h1>Unlocking the Potential of Technology</h1>    
+        <p>Technology is not just about gadgets and gizmos; it's about unlocking the power to innovate, create, and transform the world around us.</p>
+        <p>From groundbreaking advancements in artificial intelligence to the endless possibilities of the Internet of Things, technology is shaping our future in ways we never thought possible.</p>
+        <p>It's more than just lines of code; it's the driving force behind revolutions in communication, healthcare, education, and beyond.</p>
+        <p>In today's digital age, technology is the catalyst for change, empowering individuals and organizations to reach new heights of creativity and productivity.</p>
+        <p>Explore the endless possibilities of technology, where imagination meets innovation, and ideas become reality. Join the journey of discovery and unlock the potential that will shape our future.</p>
+        <p class="source">Source: Inspired by the essence of technology</p>
+    </div>
+</body>
+</html>
